@@ -1,0 +1,17 @@
+p.carinha {
+	margin-left: 50px; 
+}
+
+div.teste {
+	/*
+	O Shorthand é margin, na seguinte ordem
+	superior, direita, inferior e esquerda
+	*/
+	margin: 5px 10px 5px 75px
+}
+
+h2 {
+	width: 400px; /* Largura do div*/
+	border: 1px solid black; 
+	margin: auto; /* O navegador define o tamanho da margem*/
+}

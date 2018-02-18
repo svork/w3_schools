@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Links no HTML</title>
+		<meta charset="iso-8859-1">
+		<link rel="stylesheet" type="text/css" href="../css/01.css">
+	</head>
+
+	<body>
+		<h1 style="background-image: url('https://www.underconsideration.com/brandnew/archives/att_2016_logo_with_type.png'); ">Links no HTML</h1>
+		<p>Vamos mostrar alguns links agora</p>
+		<hr />
+		<!-- Vamos para o elemento com o ID favorito -->
+		<a href="#favorito">Ir para o favorito</a>
+		<br />
+		<!-- Use o parametro _blank para abrir o link em outra aba -->
+		<a href="10.html" target="_blank">Primeiro arquivo HTML que eu fiz com CSS</a>
+		<br />
+		<!-- O parametro _self, padrão, abre o link na mesma aba -->
+		<a href="https://www.google.com" target="_self">Google</a>
+		<br />
+		<!-- Vamos ver o que essa caralha de top faz, não entendi :( -->
+		<a href="https://www.brasil.gov.br" target="_top">Governo do Brasil</a>
+		<br />
+		<h2>Usando uma imagem como link</h2>
+		<a href="09.html" target="_blank">
+			<img src="https://www.underconsideration.com/brandnew/archives/att_2016_logo_with_type.pn" alt="ATT Logo" style="width: 360px; height:96px; float:right; ">
+		</a>
+		<br />
+		<p id="favorito">Teste de favorito</p>
+		<hr />
+		<h3>Imagem da ATT</h3>
+		<p>Diferentes tamanhos, depende da tela, usando a tag picture do HTML5</p>
+		<picture>
+			<source media="(min-width: 250px)" srcset="https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg">
+			<source media="(min-width: 600px)" srcset="https://www.underconsideration.com/brandnew/archives/att_2016_logo_with_type.png">
+			<img src="https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg" alt="ATT" style="width: 250px; height: 250px; ">
+		</picture>
+	</body>
+</html>

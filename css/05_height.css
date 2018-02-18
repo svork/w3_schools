@@ -1,0 +1,11 @@
+#chapa {
+	height: 200px; 
+	width: 15%; 
+	background-color: powderblue; 
+}
+
+div.limite {
+	height: 20px; 
+	max-width: 400px; 
+	background-color: cyan; 
+}

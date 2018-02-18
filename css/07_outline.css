@@ -1,0 +1,9 @@
+div.destaque {
+	margin: 50px; 
+	width: 400px; 
+	outline-style: solid; 
+	outline-color: invert; /* Inverte a cor do ouline, para ter maior contraste*/
+	outline-width: 40px; 
+	outline-offset: 10px; /* Espaço entre a borda e o outline, semelhante ao padding*/
+	border: 5px solid lightgrey; 
+}

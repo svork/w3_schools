@@ -1,0 +1,21 @@
+body {
+	background-color: linen;
+	background-image: url("../html/foto02.jpg"); 
+	background-repeat: repeat-x; /*Repetir Horizontal*/
+	background-repeat: repeat-y; /*Repetir Vertical*/
+	background-repeat: no-repeat; /*Não repete*/
+	background-position: right top; /*Posição na tela*/
+	background-attachment: fixed; /*Imagem de fundo não se move*/
+
+	/*Usando um shorthand para definir todas propriedades de uma vez*/
+	/*Na seguinte ordem: color, image, repeat, attachment e position*/
+	background: linen url("../html/foto01.jpg") repeat-y fixed right top; 
+}
+
+h1 {
+	background-color: yellow; 
+}
+
+p {
+	background-color: lightgreen; 
+}

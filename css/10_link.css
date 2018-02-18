@@ -1,0 +1,14 @@
+a:link, a:visited {
+	background-color: black; 
+	color: lightgreen; 
+	text-decoration: none; 
+	padding: 14px 25px; 
+	text-align: center; 
+	display: inline-block; 
+}
+
+a:hover {
+	background-color: yellow; 
+	color: cyan; 
+	font-size: 3em; 
+}

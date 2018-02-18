@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt_br>">
+	<head>
+		<title>Entrada de informação no HTML</title>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="utf-8">
+		<link ref="stylesheet" type="text/css" href="../css/04.css">
+	</head>
+	<body>
+		<h1>Entrada de informação no HTML</h1>
+		<p>Está página mostra alguns exemplos de input no HTML</p>
+		<br>
+		<hr>
+		<!-- Elemento form tem o atributo method com o valor post, pois esta página tem um campo senha-->
+		<form method="post">
+			<fieldset>
+				<legend>Entrada de texto simples</legend>
+				<label for="text01">Digite qualquer coisa ai</label>
+				<input name="text01" type="text">
+			</fieldset>
+			<fieldset>
+				<legend>Exemplo de um login</legend>
+				<label for="senha">A senha é ?</label>
+				<input name="senha" type="password">
+			</fieldset>
+			<fieldset>
+				<legend>Botão enviar ( <strong>submit</strong> )</legend>
+				<input type="submit" value="Enviar dados">
+			</fieldset>
+			<fieldset>
+				<legend>Botão reset, muda os valores para o <b>default</b></legend>
+				<input type="reset">
+			</fieldset>
+			<fieldset>
+				<legend>Botões de Rádio, apenas <em>um</em> pode ser selecionado</legend>
+				<input type="radio" name="depositos" value="Mariana" checked>Mariana<br>
+				<input type="radio" name="depositos" value="Hillory">Hillory<br>
+				<input type="radio" name="depositos" value="Lais">Lais<br>
+			</fieldset>
+			<fieldset>
+				<legend>Checkboxes, permitem escolher mais de um item</legend>
+				<input type="checkbox" name="veiculo" value="carro" checked>Carro<br>
+				<input type="checkbox" name="veiculo" value="moto">Moto<br>
+			</fieldset>
+			<fieldset>
+				<legend>Botão comum</legend>
+				<button type="button" onclick="alert('MC Kevinho')">Se acredita??</button>
+			</fieldset>
+		</form>
+		<br>
+		<h2>Elementos de Entrada novos, HTML5</h2>
+		<form method="post">
+			<fieldset>
+				<legend>Elemento color</legend>
+				<label for="cores">Escolha uma cor</label>
+				<input type="color" name="cores">
+			</fieldset>
+			<fieldset>
+				<legend>Elemento date</legend>
+				<label for="hoje">Data</label>
+				<input type="date" name="hoje">
+			</fieldset>
+		</form>
+	</body>
+</html>

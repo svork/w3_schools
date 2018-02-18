@@ -1,0 +1,11 @@
+#pad01 {
+	padding-left: 100px; 
+	border: 1px solid black;
+}
+
+div.espaco {
+	width: 200px; 
+	padding: 50px; 
+	box-sizing: border-box; /* Mantem o tamanho do elemento, ajustando o padding */
+	border: 3px solid green; 
+}

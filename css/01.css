@@ -1,0 +1,35 @@
+body {
+	background-color: lightblue; 
+	font-family: "Times New Roman"; 
+}
+h1 {
+	color: black; 
+	font-size: 200%; 
+	text-align: center; 
+	border: 2px solid red; 
+	padding: 10px; 
+	margin: 50px; 
+}
+h2 {
+	color: red; 
+	font-size: 150%; 
+	text-align: right; 
+}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+p {
+	color: black; 
+	font-size: 150%; 
+	text-align: justified;  
+}
+#ppk {
+	font-size: 400%; 
+}
+p.normal {
+	color: black; 
+	font-size: 24px; 
+	text-align: left; 
+	font-family: verdana; 
+}

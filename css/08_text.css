@@ -1,0 +1,36 @@
+body {
+	background-color: black
+}
+
+h1 {
+	color: navy; 
+	background-color: lightgrey; 
+	text-align: center; 
+	text-transform: uppercase; 
+}
+
+p {
+	color: lightgreen; 
+	text-align: left; 
+	background-color: black; 
+}
+
+div {
+	width: 400px;
+	border: 2px solid lightgrey; 
+}
+#texto01 {
+	text-spacing: 10px; 
+	line-height: 2; 
+	/*text-shadow: 1px 1px white; */
+}
+
+h6.deletar {
+	text-decoration: line-through; 
+	text-indent: 40px; 
+	text-align: right; 
+	direction: rtl; 
+	word-spacing: 25px; 
+	color: red; 
+	background-color: white; 
+}

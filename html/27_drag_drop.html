@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt_BR">
+	<head>
+		<meta charset="iso-8859-1"/>
+		<title>Arrastar e Soltar no HTML</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../css/04.css"/>
+	</head>
+	<body>
+		<h1>Drag and Drop</h1>
+		<p>Arrastar e soltar no HTML</p>
+		<p>Vamos a prática de arrastar e soltar</p>
+		<hr/>
+		<p></p>
+		<div id="origem" ondrop="soltar(event)" ondragover="allowDrop(event)" style="border: 2px solid red; width: 324px; height: 324px">
+			<img id="foto" src="foto02.jpg" alt="Awesome Face" draggable="true" ondragstart="arrastar(event)" width="324" height="324" style="border: 2px solid grey"/>
+		</div>
+		<div id="destino" ondrop="soltar(event)" ondragover="allowDrop(event)" style="border: 2px solid green; width: 324px; height: 324px"></div>
+		<script src="../javascript/05_drag_drop.js"></script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+	font-size: 100%; 
+}
+h1 {
+	font-family: arial; 
+	font-style: italic; 
+}
+
+#p01 {
+	font-family: "Times New Roman", times; 
+}
+
+#p02 {
+	font-family: arial; 
+	font-size: 3em; 
+	font-style: italic; 
+}
+
+#p03 {
+	font-family: serif; 
+	font-size: 2em; 
+	font-weight: bold; 
+}

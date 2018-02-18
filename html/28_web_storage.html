@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt_BR">
+	<head>
+		<meta charset="iso-8859-1"/>
+		<title>Web Storage no HTML5</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../css/04.css"/>
+	</head>
+	<body>
+		<h1>Web Storage no HTML5</h1>
+		<p>Este recurso visa substituir os antigos cookies, que eram utilizados para armazenar informações</p>
+		<hr/>
+		<p>Há dois tipos principais:</p>
+		<ul>
+			<li>localStorage: Armazena dados sem tempo de expiração</li>
+			<li>sessionStorage: Os dados são perdidos quando a aba do navegador é fechada</li>
+		</ul>
+		<br/>
+		<div id="resultado" style="border: 1px solid grey"></div>
+		<button id="botao" type="button" onclick="guarda()">Mostrar</button>
+		<br/>
+		<h2>Contador de clicks, usando localStorage para guardar o número mesmo fechando a aba do navegador</h2>
+		<p>Click no botão abaixo para aumentar o número de clicks<p>
+		<p id="numero_click"></p>
+		<button id="botao2" type="button" onclick="conta_click()">OK</button>
+		<button id="botao3" type="button" onclick="zerar_click()">Zerar</button>		
+		<hr/>
+		<h2>Contador de clicks, agora com sessionStorage, ou seja, a informação é guardada enquanto a aba estiver aberta</h2>
+		<p>Clica ae</p>
+		<p id="numero_click2"></p>
+		<button id="botao4" type="button" onclick="conta_click2()">Clica ae</button>
+		<script src="../javascript/06_web_storage.js"></script>
+	</body>
+</html>

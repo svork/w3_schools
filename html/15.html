@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Classes em HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/04.css">
+		<script>
+			function cacarai(){
+				//print("Cacarai, javascript doido!!1!!onze");
+				var x = document.getElementsByClassName("gurias");
+				for (var i = 0; i < x.length; i++){
+					x[i].style.display = "none";
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<h1>Classes em HTML</h1>
+		<p>Agora, vamos trabalhar um pouco com o elemento class do HTML</p>
+		<br>
+		<h2>Este header está normal, pois não está na classe gurias</h2>
+		<h2 class="gurias">Classe gurias, formatação diferente</h2>
+		<h2>Este header está normal, pois não está na classe gurias</h2>
+		<h2 class="gurias">Classe gurias, formatação diferente</h2>
+		<hr>
+		<p>Vamos agora usar o elemento script para colocar um fodendo JavaScript no código</p>
+		<br>
+		<!-- Vamos criar um botão para chamar o JavaScript doido -->
+		<button onclick="cacarai()">Sumir com as gurias</button>		
+	</body>
+</html>

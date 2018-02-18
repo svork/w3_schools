@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt_br">
+	<head>
+		<title>Tipos de entrada de dados no HTML</title>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/04.css">
+	</head>
+	<body>
+		<h1>Tipos de entrada de dados no HTML</h1>
+		<p>Dando continuidade ao assunto de Formulários, vamos agora trabalhar com entrada de dados, sejam elas lista ou botões</p>
+		<hr>
+		<br>
+		<h2>Formulário 2</h2>
+		<form>
+			<fieldset>
+				<legend>Entrada de Texto comum</legend>
+				<input type="text" name="texto01" value="Daiso Japan">
+			</fieldset>
+			<fieldset>
+				<legend>Lista de Depósitos</legend>
+				<select name="deposito">
+					<option value="Hillory">Hillory</option>
+					<option value="Mariana">Mariana</option>
+					<option value="Lais">Lais</option>
+					<option value="Juliane">Juliane</option>
+					<option value="Layane">Layane</option>
+					<option value="Cristiane">Cristiane</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Área de Texto Livre</legend>
+				<textarea name="texto_plano" rows="6" cols="80">
+					Mas que delicia cara
+				</textarea>
+			</fieldset>
+			<fieldset>
+				<legend>Elemento <strong>datalist</strong> do HTML5</legend>
+				<label for="shit">Tipos de Fezes</label>
+				<input name="shit" list="merdas">
+				<datalist id="merdas">
+					<option value="cocÔ">
+					<option value="bosta">
+					<option value="diarreia">
+					<option value="pastoso">
+				</datalist>
+			</fieldset>
+			<fieldset>
+				<legend>Elemento <em>output</em> do HTML5</legend>
+				<label for="deslizante">Número de Carros</label>
+				<input name="deslizante" type="range" id="a" value="2">
+				<label for="rodinha">Número de passageiros</label>
+				<input name="rodinha" type="number" value="4">
+			</fieldset>
+		</form>
+		<h3>Vejamos um botão maroto</h3>
+		<button type="button" onclick="alert('Fudeu')">Fudeu?</button>
+	</body>
+</html>

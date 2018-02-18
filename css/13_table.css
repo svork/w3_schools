@@ -1,0 +1,25 @@
+table, th, td {
+	border: 1px solid black; 
+	border-collapse: collapse; 
+}
+
+tr:hover {
+	background-color: black; 
+	color: white; 
+}
+
+tr:nth-child(odd) {
+	background-color: lightblue; 
+}
+
+th {
+	background-color: lightgrey; 
+	color: black; 
+	padding: 10px; 
+	height: 40px; 
+	vertical-align: middle; 
+}
+
+td {
+	text-align: right; 
+}

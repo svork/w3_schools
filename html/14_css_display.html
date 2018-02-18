@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="iso-8859-1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../css/14_display.css"/>
+		<title>A propriedade display do CSS</title>
+	</head>
+	<body>
+		<h1>A propriedade display do CSS</h1>
+		<p>A propriedade display serve para definir como exibir um elemento</p>
+		<h6>You don't say</h6>
+		<hr/>		
+		<p>Aqui temos uma lista de coisas, exibidas em linha</p>
+		<ul>
+			<li>Pepeka</li>
+			<li>Do mal</li>
+		</ul>
+		<button onclick="mostra()">Mostrar/Esconder</button>
+		<div id="teste">
+			<p>Este parágrafo foi escondido, usando a propriedade "<em>display: none;</em>"</p>
+		</div>
+		<script>
+			function mostra() {
+				if (document.getElementById("teste").style.display == "block") {
+					document.getElementById("teste").style.display = "none";
+				}
+				else {
+					document.getElementById("teste").style.display = "block";
+				}
+			}
+		</script>
+	</body>
+</html>

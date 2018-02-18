@@ -1,0 +1,28 @@
+/* Combinator Descendente
+o elemento P apenas está dentro do elemento DIV
+Também pode estar dentro de outro elemento*/
+div p {
+	background-color: red; 
+	color: white; 
+	width: 300px; 
+	text-align: center; 
+}
+
+/*Combinator child
+O elemento P está imediatamente dentro do elemento DIV*/
+div > p {
+	background-color: green; 
+	color: white; 
+	width: 300px; 
+	text-align: center; 
+}
+
+/*Combinator Adjacent
+O elemento P vem em seguida do elemento DIV*/
+
+div + p {
+	background-color: blue; 
+	color: white; 
+	width: 300px; 
+	text-align: center; 
+}

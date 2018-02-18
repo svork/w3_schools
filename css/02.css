@@ -1,0 +1,42 @@
+body {
+	background-color: lightgrey; 
+	color: black
+}
+
+h1 {
+	font-size: 36px; 
+	font-family: verdana; 
+	text-align: center; 
+}
+
+h2 {
+	font-size: 24px; 
+	font-family: courier;
+	text-align: left; 
+}
+
+p {
+	font-size: 14px; 
+	font-family: "Times New Roman"; 
+	text-align: justified; 
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse; 
+	border-spacing: 15px; 
+}
+
+th {
+	border: 1px solid black; 
+	padding: 5px; 
+}
+
+td {
+	text-align: center; 
+	border: 1px solid black; 
+	padding: 5px; 
+	
+}
+ul {}
+li {}

@@ -1,0 +1,20 @@
+body {
+	background-color: lightblue; 
+}
+h1 {
+	background-color: black; 
+	color: white; 
+	font-size: 150%; 
+	text-align: center; 
+}
+h2 {
+	color: green; 
+}
+p {
+	color: yellow; 
+	text-align: left; 
+}
+.gurias {
+	color: purple; 
+	text-align: center; 
+}

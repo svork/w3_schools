@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="iso-8859-1"/>
+		<title>Vídeos no HTML5</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="../css/04.css"/>		
+	</head>
+	<body>
+		<h1>Vídeos no HTML5</h1>
+		<p>Usando o novo elemento do HTML5 video, podemos exibir vídeos sem precisar de plug-ins</p>
+		<hr/>		
+		<video id="rabbit" width="320" height="240">
+			<source src="video_coelho.mp4" type="video/mp4">
+		<!-- Se o browser não suportar o elemento <video>, será exibido esta mensagem -->
+			Seu navegador não suporta vídeo
+		</video>
+		<br/>
+		<button onclick="pausar()">Play/Pause</button>
+		<button onclick="grande()">Grande</button>
+		<button onclick="deboas()">De boas</button>
+		<hr/>
+		<h2>Vídeo do Youtube do Schaper</h2>
+		<iframe width="640" height="480" src="https://www.youtube.com/embed/U2sqdtPKW9w"></iframe>
+		<script src="../javascript/03_Video.js"></script>
+	</body>
+</html>

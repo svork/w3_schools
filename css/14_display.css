@@ -1,0 +1,18 @@
+li {
+	display: inline; 
+}
+
+#teste {
+	display: none; 
+	text-align: center; 
+	border: 1 px solid green; 
+	background-color: green; 
+	color: white; 
+	font-size: 2em;  
+	padding: 15px; 
+	margin: auto; 
+}
+
+h1 {
+	text-align: center; 
+}

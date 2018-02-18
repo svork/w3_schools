@@ -1,0 +1,67 @@
+p.b01 {
+	border-style: dotted; 
+	border-width: thick; 
+}
+
+p.b02 {
+	border-style: dashed;
+	border-width: 1cm;  
+}
+
+p.b03 {
+	border-style: solid; 
+
+	/* Cada borda com uma largura diferente
+	na seguinte ordem: superior, direita, inferior, esquerda */
+	border-width: thin 2em 3px 4cm; 
+}
+
+p.b04 {
+	border-style: double; 
+	border-color: red yellow blue lightgreen; 
+}
+
+p.b05 {
+	border-style: groove; 
+	border-width: 5em; 
+}
+
+p.b06 {
+	border-style: ridge; 
+	border-color: cyan; 
+}
+
+p.b07 {
+	border-style: inset; 
+	border-color: pink; 
+}
+
+p.b08 {
+	border-style: outset; 
+}
+
+p.b09 {
+	border-style: none; 
+}
+
+p.b10 {
+	border-style; hidden; 
+}
+
+#diferentao {
+	border-style: groove double inset hidden; 
+}
+
+p.toperson {
+	border-left: 5px solid cyan; 
+	background-color: lightgrey; 
+}
+
+p.quadrado {
+	border: 2px solid black; 
+}
+
+p.redondo {
+	border: 2px solid cyan; 
+	border-radius: 10px; 
+}

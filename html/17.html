@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>JavaScript no HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/04.css">
+		<script type="text/javascript" src="../javascript/01.js"></script>
+
+		<!-- Se o javascript estiver desabilitado, será exibido esta mensagem abaixo -->
+		<noscript>Se fudeu, sem javascript</noscript>
+	</head>
+
+	<body>
+		<h1>JavaScript no HTML</h1>
+		<p>Finalmente chegou a hora do JavaScript, cacarai</p>
+		<br>
+		<button onclick="horas()">Que horas são?</button>
+		<p id="horas"></p>
+		<br>
+		<p>Além de criar botões, JavaScript também pode alterar o estilo dos elementos, vejamos</p>
+		<button onclick="doido()">Doido</button>
+		<button onclick="debuenas()">De buenas</button>
+		<br>
+		<p id="muda_eu_carai">Este parágrafo foi alterado usando JavaScript</p>
+		<br>
+		<p>Alterando atributos de um elemento com javascript</p>		
+		<button onclick="mostraFoto()">Mostrar foto</button>
+		<button onclick="escondeFoto()">Esconder foto</button>
+		<br>
+		<img id="fota" src="" alt="Pica não relatada" style="width: 300px; height: 180px; border:1px solid black">
+	</body>
+</html>
