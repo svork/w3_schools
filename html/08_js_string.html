@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rodrigo Costa">
+    <link rel="stylesheet" href="../css/02.css">
+    <title>JavaScript Strings</title>
+    <script src="../javascript/08_js_string.js"></script>
+  </head>
+  <body>
+    <h1>JavaScript Strings</h1>
+    <p>We are going to use strings and manipulate them with coding</p>
+    <hr/>
+    <form>
+      String: <input id="in_01" type="text" value="Type in some data"> <br/>
+      String to be found: <input id="in_02" type="text" value="test"> <br/>
+      Replace this: <input id="old" type="text">
+      with that: <input id="new" type="text"> <br/>
+      Find character at position: <input id="find_char" type="text"> <br/>
+    </form>
+    <p>The string lenght is <span id="first"></span></p> 
+    <p>Result: <span id="second"></span></p>
+    <p>Slicing the string from position 3 to 10: <span id="third"></span></p>
+    <p>New String, after replace: <span id="fourth"></span></p>
+    <p id="grande_pequena">Output</p>
+    <p>The character at position <span id="position"></span> is <span id="char"></span></p>
+    <button id="button01" type="button" onclick="tamanho_string()">Length</button>
+    <button id="button02" type="button" onclick="acha_string()">Find String</button>
+    <button id="button03" type="button" onclick="fatia_string()">Slice it</button>
+    <button id="replace" type="button" onclick="troca_string()">Replace</button>
+    <button id="maiuscula" type="button" onclick="maiuscula()">Upper</button>
+    <button id="minuscula" type="button" onclick="minuscula()">Lower</button>
+    <button id="posicao" type="button" onclick="posicao_string()">Find position</button>
+  </body>
+</html>

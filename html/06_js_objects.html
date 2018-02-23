@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rodrigo Costa">
+    <link rel="stylesheet" href="../css/02.css">
+    <title>JavaScript Objects</title>
+    <script src="../javascript/06_js_objects.js"></script>
+  </head>
+  <body>
+    <h1>JavaScript Objects</h1>
+    <p>You can create objects within JavaScript and they can have properties(atributos) and methods</p>
+    <hr/>
+    <p>We are going to use as an example a Car</p>
+    <table>
+      <tr>
+        <th>Propertie</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td id="name"></td>
+      </tr> 
+      <tr>
+        <td>Color</td>
+        <td id="color"></td>
+      </tr>
+      <tr>
+        <td>Brand</td>
+        <td id="brand"></td>
+      </tr>
+      <tr>
+        <td>Engine</td>
+        <td id="engine"></td>
+      </tr>
+    </table>
+    <form>
+      Name: <input id="name_2" type="text"> <br/>
+      Color: <input id="color_2" type="text"> <br/>
+      Brand: <input id="brand_2" type="text"> <br/>
+      Engine: <input id="engine_2" type="text"> <br/>
+    </form>
+    <br/>
+    <button id="button01" type="button" onclick="show_data()">Show</button>
+    <button id="button02" type="button" onclick="update_data()">Update</button>
+  </body>
+</html>
