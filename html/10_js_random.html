@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rodrigo Costa">
+    <link rel="stylesheet" href="../css/02.css">
+    <title>JavaScript Random</title>
+    <script src="../javascript/10_js_random.js"></script>
+  </head>
+  <body>
+    <h1>JavaScript Random</h1>
+    <h2>We're going to play a "Guess the number" game, quite simple</h2>
+    <hr/>
+    <form>
+      <label>Type your guess</label> <br/>
+      <input id="txt01" name="txt01" type="text" placeholder="Numbers only" required> <br/>
+      <button id="btn01" name="btn01" type="button" onclick="verify_win()">OK</button>
+      <p>Current attempts: <span id="counter"></span>
+      <h2 id="win"></h2>
+    </form>
+    <hr/>
+  </body>
+</html>
