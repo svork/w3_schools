@@ -77,3 +77,50 @@ function clear_input(){
   document.getElementById("txt_01").innerHTML = "";
   document.getElementById("txt_02").innerHTML = "";
 }
+
+// Functions sets the variable precision to two decimals
+function two_decimals(){
+  document.getElementById("operator").innerHTML = "Precision: 2 Decimals";
+
+  // Converts from String to Float
+  n1 = parseFloat(document.getElementById("txt_01").value);
+  n2 = parseFloat(document.getElementById("txt_02").value);
+
+  result = n1 + n2;
+  document.getElementById("result").innerHTML = "The result is: " + result.toFixed(2);
+}
+
+// Functions rounds the results up
+function arred_up(){
+  document.getElementById("operator").innerHTML = "Round up";
+
+  // Converts from String to Float
+  n1 = parseFloat(document.getElementById("txt_01").value);
+  n2 = parseFloat(document.getElementById("txt_02").value);
+
+  result = n1 + n2;
+  document.getElementById("result").innerHTML = "The result is: " + Math.ceil(result);
+}
+
+// Functions rounds the results down
+function arred_down(){
+  document.getElementById("operator").innerHTML = "Round up";
+
+  // Converts from String to Float
+  n1 = parseFloat(document.getElementById("txt_01").value);
+  n2 = parseFloat(document.getElementById("txt_02").value);
+
+  result = n1 + n2;
+  document.getElementById("result").innerHTML = "The result is: " + Math.floor(result);
+}
+
+// This function returns the square root a number
+function raiz(){
+  document.getElementById("operator").innerHTML = "Square root";
+
+  // Converts from String to Float
+  n1 = parseFloat(document.getElementById("txt_01").value);
+
+  result = Math.sqrt(n1);
+  document.getElementById("result").innerHTML = "The result is: " + result;
+}
