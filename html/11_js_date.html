@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rodrigo Costa">
+    <link rel="stylesheet" href="../css/02.css">
+    <title>JavaScript Dates</title>
+    <script src="../javascript/11_js_date.js"></script>
+  </head>
+  <body>
+    <h1>JavaScript Dates</h1>
+    <h2>Let's see how JavaScript handles dates and time</h2>
+    <p>We will be using the ISO 8601 standard YYYY-MM-DD as date format</p>
+    <hr/>
+    <p>Today is <span id="hoje"></span></p>
+    <button id="btn_today" type="button" onclick="hoje()">Today is?</button>
+    <form>
+      <label>Birthday date:</label>
+      <input id="birthday" name="birthday" type="date" min="1990-01-01" max="1999-12-31">
+      <button id="btn_bday" type="button" onclick="bday()">Birthday</button>
+      <p>Your birthday is on <span id="bday_date"></span></p>
+    </form>
+  </body>
+</html>
