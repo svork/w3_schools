@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rodrigo Costa">
+    <title>JavaScript Array</title>
+    <link rel="stylesheet" href="../css/02.css">
+    <script src="../javascript/12_js_array.js"></script>
+  </head>
+  <body>
+    <h1>JavaScript Array</h1>
+    <h2>We are going to learn how to work with Arrays on JavaScript</h2>
+    <hr/>
+    <p>Click on the "Next" button to show the next element of the array</p>
+    <p>Item:  <span id="lbl_item"></span> | Name:  <span id="lbl_name"></span></p>
+    <button id="btn_next" type="button" onclick="proximo()">Next</button>
+    <hr/>
+    <p>These are the array elements. To sort them, hit the "Sort" button</p>
+    <p>Original Array:  <span id="lbl_array"></span></p>
+    <p>Sorted Array:  <span id="lbl_arrumado"></span></p>
+    <button id="btn_sort" type="button" onclick="arrumar()">Sort</button>
+    <hr/>
+    <p>Type a name and then click on the "Add" button</p>
+    <form>
+      <label>Type a name: </label>
+      <input id="txt_name" name="txt_name" type="text" required>
+      <button name="btn_name" type="button" onclick="adicionar()">Add</button>
+      <button name="btn_add_inicio" type="button" onclick="adicionar_inicio()">Add to the Beginning</button>
+      <button name="btn_remove" type="button" onclick="remover()">Remove</button>
+      <button name="btn_remove_inicio" type="button" onclick="remover_inicio()">Remove from Beginning</button>
+      <p>This is the new array: <span id="lbl_new_name"></span></p>
+    </form>
+    <hr/>
+  </body>
+</html>
