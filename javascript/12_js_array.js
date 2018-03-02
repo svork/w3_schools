@@ -47,3 +47,11 @@ function adicionar_inicio(){
   people.unshift(name);
   document.getElementById("lbl_new_name").innerHTML = people.toString();
 }
+
+// This function inserts an element on the middle of the array
+function fatiar(){
+  var name = document.getElementById("txt_add_middle").value;
+  var position = parseFloat(document.getElementById("txt_position").value);
+  people.splice(position, 0, name);
+  document.getElementById("lbl_new_middle").innerHTML = people.toString();
+}

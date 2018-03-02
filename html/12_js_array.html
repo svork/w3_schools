@@ -30,6 +30,18 @@
       <button name="btn_remove" type="button" onclick="remover()">Remove</button>
       <button name="btn_remove_inicio" type="button" onclick="remover_inicio()">Remove from Beginning</button>
       <p>This is the new array: <span id="lbl_new_name"></span></p>
+      <hr/>
+    </form>
+    <form>
+      <legend>Add items to a given index on an array<legend>
+      <fieldset>
+        <label>Type the name you want to add</label>
+        <input id="txt_add_middle" name="txt_add_middle" type="text" maxlength="20" required> <br/>
+        <label>Insert the desired position</label>
+        <input id="txt_position" name="txt_position" type="number" min="0" max="10" required> <br/>
+        <button name="btn_slice" type="button" onclick="fatiar()">Slice</button>
+        <p>This is the new array: <span id="lbl_new_middle"></span></p>
+      </fieldset>
     </form>
     <hr/>
   </body>
